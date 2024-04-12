@@ -5,10 +5,10 @@ This repository contains the script PlayerMoveController that is meant to provid
 # Game Object Requirements
 This script should be attached to the player's GameObject. It assumes your GameObject has the following Components:
 
-Rigidbody2D
-CapsuleCollider2D
-Animator
-BoxCollider2D
+Rigidbody2D,
+CapsuleCollider2D,
+Animator,
+BoxCollider2D,
 
 It also requires objects for wall, ground and ledge check points.
 
